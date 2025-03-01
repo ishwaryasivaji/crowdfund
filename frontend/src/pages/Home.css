@@ -1,0 +1,47 @@
+/* src/pages/Home.css */
+.home {
+    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .home h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 2rem;
+  }
+  
+  .campaigns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .campaign-card {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .campaign-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .campaign-card h2 {
+    margin: 0 0 1rem;
+    color: #007bff;
+  }
+  
+  .campaign-card p {
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  
+  .campaign-card strong {
+    color: #333;
+  }
