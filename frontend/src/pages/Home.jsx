@@ -32,7 +32,7 @@ const Home = () => {
             </div>
           ))
         ) : (
-          <p>No campaigns found.</p>
+          <p>No campaigns found.Add Campaigns</p>
         )}
       </div>
     </div>
